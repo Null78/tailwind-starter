@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "Tailwind Starter for static HTML",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/css/*.css -o dist/styles.css"
+  },
+  "keywords": [],
+  "author": "Null78",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
+}
